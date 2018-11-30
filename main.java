@@ -7,7 +7,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入算式：");
         String strString = sc.nextLine();
-        System.out.println(NewCalculator.calculate(strString));
+        System.out.println("结果为"+Calculator.calculate(strString));
     }
 
 }
